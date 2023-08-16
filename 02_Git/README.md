@@ -1,4 +1,4 @@
-Version control and branch managements
+Version control branch managements
 
 - sebagai seorang programmer Github merupakan sosial media nya. Dengan adanya git dan github ini dapat mempermudah kami dalam mengerjakan suatu program secara bersama". 
 - terdapat beberapa aturan untuk meng-push file dari lokal ke git, dengan cara menjalankan perintah git add . kemudian git commit dan git push
