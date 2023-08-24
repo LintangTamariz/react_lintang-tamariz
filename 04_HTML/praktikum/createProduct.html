@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+</head>
+<body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <form method="post">
+        <div>Product name:</div>
+            <input type="text" name="Product-name" minlength="6" maxlength="60" required="required">
+
+
+    </form><br>
+    <div>Product Category:</div>
+        <label for="Product Category"></label>
+        <select id="Product-Category">
+            <option value=""></option>
+        </select><br><br>
+    <div>Product Freshness:</div>
+        <ul type="circle">
+            <li>Brand New</li>
+            <li>Second Hank</li>
+            <li>Refurbished</li>
+        </ul>
+    <form>
+        <label for="myfile">Image of Product</label>
+        <input type="file" id="myfile" name="myfile">
+    </form>
+    <div>Additional Description</div>
+        <label for="message"></label>
+        <textarea name="message" id="message" minlength="4" maxlength="100" required="required">
+        </textarea><br>
+    <div>Product price:</div>
+        <label for="Price Product"></label>
+        <input type="number" name="Price Product" id="Price Product" required="required"><br>
+    <form action="">
+        <input type="submit">
+    </form>
+</body>
+</html>
