@@ -1,0 +1,121 @@
+.container-fluid {
+    background-color: #4593FF;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.navbar-brand {
+    color: white;
+
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+.glyphicon-user-sign{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.glyphicon-user{
+    padding: 10px;
+    color: white;
+}
+
+.navbar-right li a {
+    text-decoration: none;
+
+}
+
+.navbar-right .glyphicon-user-sign {
+    color: #4593FF;
+    
+}
+
+.navbar-right .glyphicon-user-sign:hover {
+    background-color: #1b6cdf;
+    color: white;
+
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.col-md-6 h1 {
+    margin-bottom: 50px;
+}
+
+.col-md-6 a {
+    text-decoration: none;
+    margin-left: -7px;
+
+}
+
+.col-md-6 p{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.col-md-6 .glyphicon-user-more:hover {
+    background-color: white;
+    color: #1b6cdf;
+    border: 2px solid #1b6cdf ;
+    margin-left: 5px;
+}
+
+.col-md-6 .glyphicon-user-signup:hover {
+    background-color: #1b6cdf;
+    color: #ffffff;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.col-md-6 .glyphicon-user-signup {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.bottom p {
+    margin-top: 50px;
+}
+
+.glyphicon-user-more{
+    padding: 10px;
+    background-color: #1b6cdf;
+    border-radius: 5px;
+    color: white;
+}
+
+.second{
+    min-height: 50vh;
+}
+
+.third {
+    min-height: 40vh;
+}
+.card {
+    border: none !important;
+    width: 100%;
+    height: 50px;
+}
+
+.doctor {
+    max-width: 100%;
+    flex-direction: row;
+}
+
+footer {
+    height: 10vh;
+}
+h3 {
+    font-size: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
