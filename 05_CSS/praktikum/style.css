@@ -1,6 +1,4 @@
 
-  
-
 @font-face {
     font-family: "Jost-Bold";
     src: url("./Jost-Bold.ttf");
@@ -54,6 +52,7 @@ h1 {
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
 }
 
+
 .main-menu > li {
     float: left;
     padding: 10px;
@@ -66,6 +65,12 @@ h1 {
     font-family: "Jost-Regular";
 }
 
+.main-menu li a:hover{
+    background-color: #37517E;
+    color: white;
+    border-radius: 50px;
+}
+
 .heading{
     font-size: 30px;
     margin-top: auto;
@@ -75,47 +80,6 @@ h1 {
 
 .trigger {
     display: none;
-}
-@media (max-width: 720px) {
-    .main-menu{
-        display:none;
-        position: absolute;
-        top: 50px;
-        width: 100%;
-        right: 0;
-        opacity: 1;
-        animation: anim .5s reverse;
-    }
-
-
-
-    @keyframes anim {
-        0%{
-            opacity: 0;
-        }
-
-        100%{
-            opacity: 1;
-        }
-    }
-    .main-menu > li {
-        float: none;
-    }
-
-    .trigger{
-        display: block;
-    }
-
-    .trigger > i {
-        font-size: 30px;
-        color: white;
-        padding: 10px;
-    }
-
-    .title h1 {
-        font-size: 40px !important;
-    }
-
 }
 
 
@@ -157,6 +121,21 @@ h1 {
     align-items: center;
     border: 2px solid aqua;
 }
+
+.btn-subs {
+    background-color: aqua;
+    border-radius: 50px;
+    margin-left: -49px;
+    padding: 7px;
+}
+
+.btn-subs:hover{
+    color: rgb(254, 254, 255);
+    background: transparent;
+    color: aqua;
+    border: 2px solid aqua;
+}
+
 
 .btn-video {
     background-color: #37517E;
@@ -283,8 +262,9 @@ li {
 
 }
 
-p {
+p, h2 {
     font-family: "Jost-Regular";
+    color: #37517E;
 }
 
 footer {
@@ -313,3 +293,45 @@ footer p {
     }
 }
 
+
+@media (max-width: 720px) {
+    .main-menu{
+        display:none;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        right: 0;
+        opacity: 1;
+        animation: anim .5s reverse;
+    }
+
+
+
+    @keyframes anim {
+        0%{
+            opacity: 0;
+        }
+
+        100%{
+            opacity: 1;
+        }
+    }
+    .main-menu > li {
+        float: none;
+    }
+
+    .trigger{
+        display: block;
+    }
+
+    .trigger > i {
+        font-size: 30px;
+        color: white;
+        padding: 10px;
+    }
+
+    .title h1 {
+        font-size: 40px !important;
+    }
+
+}
