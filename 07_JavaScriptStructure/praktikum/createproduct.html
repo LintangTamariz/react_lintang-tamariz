@@ -64,12 +64,13 @@
   </section>
   <!-- ////////////// TITLE ///////////// -->
 
-    <!-- ////////////// FORM ///////////// -->
+
   <section class="row justify-content-center my-5">
     <h2 class="text-detail col-lg-6 col-md-6 col-sm-6 col-6">Detail Product</h2>
   </section>
 
 
+<!-- ////////////// FORM ///////////// -->
 <form action="" id="tambahdata">
   <section class="row justify-content-center my-5">
     <section class="container-form col-lg-6 col-md-6 col-sm-6 col-6">
@@ -147,8 +148,8 @@
 
 
 <section>
-  <table class="table container namatabel"  id="outputTable">
-    <thead>
+  <table class="table container namatabel " id="outputTable">
+    <thead class="col-lg-6 col-md-6 col-sm-6 col-6">
       <tr>
         <!-- <th>No</th> -->
         <th>Product Name</th>
@@ -157,11 +158,13 @@
         <th>Product Freshness</th>
         <th>Additional Description</th>
         <th>Product Price</th>
+        <th id="remove">Action</th>
       </tr>
+      <tbody id="body"></tbody>
     </thead>
-
   </table>
 </section>
+
       <!-- ////////////// FORM ///////////// -->
 
 <script src="script.js"></script>
