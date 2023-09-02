@@ -30,13 +30,22 @@ tambahData.addEventListener("submit", (e) => {
     }
 
     if (productName == null || productName == ""){
-        alert ('Please enter a valid Prouct name')
+        alert ('Please enter a valid Product name')
         document.getElementById('productname').style.borderColor = "red";
         return;
     }
+
+    if (productPrice == null || productPrice == ""){
+        alert ('Please enter a valid Product Price')
+        document.getElementById('productprice').style.borderColor = "red";
+        return;
+    }
+
+
     else {
         if (optionProduct.checked == true && optionProduct1.checked == true && optionProduct2.checked == true){  
-            return alert("Please mark only one checkbox either Yes or No");  
+            alert("Please mark only one checkbox either Yes or No");  
+            return
         }  
         else if (optionProduct.checked == true || optionProduct1.checked == true || optionProduct2.checked == true){  
             if(optionProduct.checked == true) {
