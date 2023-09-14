@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 
 export default function Jumbotron() {
   const [language, setLanguage] = useState('en'); 
+  const [randomNumber, setRandomNumber] = useState(null)
 
   const toggleLanguage = () => {
 
@@ -14,7 +15,14 @@ export default function Jumbotron() {
     } else {
       setLanguage('en'); 
     }
+
+    const randomNum = Math.floor(Math.random() * 1000); // Ubah angka 1000 sesuai dengan kebutuhan Anda
+    setRandomNumber(randomNum);
+    console.log('Random Number:', randomNum);
   };
+
+
+
 
   return (
     <section className="container text-center mt-5 pt-5">
