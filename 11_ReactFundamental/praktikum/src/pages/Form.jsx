@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Form (handleChange, formInputData, handleSubmit){
+export default function Form (){
     
-    const isProductNameValid = formInputData.name.length > 25
+    // const isProductNameValid = formInputData.name.length > 25
   
 
     return (
@@ -15,13 +15,12 @@ export default function Form (handleChange, formInputData, handleSubmit){
                     <div className="container-form col-lg-6 col-md-6 col-sm-6 col-6">
                         <label htmlFor="exampleDataList" className="form-label">Product Name</label>
                         <input 
-                        className={`form-control ${isProductNameValid ? '' : 'is-valid'}`}
+                    
+                        className="form-control"
                         placeholder="Input your product name" 
                         list="datalistOptions" 
                         id="productname"
                         type="text"
-                        onChange={handleChange}
-                        value={formInputData.name}
                         name="name"/>
                     </div>
                 </div>
@@ -105,8 +104,6 @@ export default function Form (handleChange, formInputData, handleSubmit){
                         list="datalistOptions" 
                         id="productprice" 
                         type="number"
-                        onChange={handleChange}
-                        value={formInputData.price}
                         name="price"
                         >
                         </input>
@@ -117,7 +114,6 @@ export default function Form (handleChange, formInputData, handleSubmit){
                     <div className="d-grid col-lg-6 col-md-6 col-sm-6 col-6">
                         <input 
                         type="submit"
-                        onClick={handleSubmit}
                         className="btn btn-primary"
                         ></input>
                     </div>
