@@ -3,20 +3,24 @@
 // import React, { Component } from 'react'
 
 import React, { useState } from 'react';
+import Swal from 'sweetalert2';
 
 export default function Jumbotron() {
   const [language, setLanguage] = useState('en'); 
   const [randomNumber, setRandomNumber] = useState(null)
 
-  const toggleLanguage = () => {
 
+
+  const toggleLanguage = () => {
+    
     if (language === 'en') {
       setLanguage('id'); 
     } else {
       setLanguage('en'); 
     }
 
-    const randomNum = Math.floor(Math.random() * 1000); // Ubah angka 1000 sesuai dengan kebutuhan Anda
+
+    const randomNum = Math.floor(Math.random() * 1000); 
     setRandomNumber(randomNum);
     console.log('Random Number:', randomNum);
   };
