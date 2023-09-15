@@ -14,11 +14,6 @@ export default function Form ( ) {
    const handleInputChange = (e) => {
     const {name, value} = e.target;
 
-    if (name === "name" && value.length > 25) {
-        setError("Last Name must not exceed 25 characters")
-        setError("")
-    }
-
     setFormData({
         ...formData,
         [name]: value,
