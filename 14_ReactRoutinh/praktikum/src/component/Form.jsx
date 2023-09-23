@@ -1,6 +1,7 @@
 import React from 'react'
 import List from './List'
 
+
 const Form = () => {
   return (
   <div className='h-screen '>
@@ -13,6 +14,7 @@ const Form = () => {
               We are team of talented designers makin websites with...
             </p>
             <List/>
+
         </div>
 
       </div>
