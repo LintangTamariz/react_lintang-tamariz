@@ -1,0 +1,27 @@
+AI, sebuah  mesin yang bisa melakukan tugas dan berpikir layaknya manusia.
+cara kerja AI, belajar menggunakan data-data yang diberikan dari data tersenit memiliki pixel-pixel kemudian AI akan memahami pola-polanya. 
+struktur AI,
+AI
+ML, sebuah cabang dari AI fokus pada pembuatan sistem yang bisa scra otomatis berkembang dgn pengalaman
+Deep Learning, sebuah cabang dari ML, pengembangan dari ML di deep .learning lebih kompleks daripada ML
+Sejarah AI, dimulai dari tahun 1950. 
+Perkembangan AI, 
+data, adanya internet masyarakat semakin terkoneksi satu sama lain.
+algoritma, penemuan" algoritma baru itu membuat AI berkembang pesat khususnya deep learning..
+perangkat keras, khusunya GPU dan TPU membuat adanya peningkatan kemampuan komputasi membuat AI mempelajari data dengan waktu yang lebih singkat.
+cloud computing, akses untuk menggunakan teknologi pendukung AI sudah lebih mudah, dengan harga yang terjangkau.
+investasi atau pendanaan
+Pengaplikasian AI
+marketing
+heatlhcare
+Etika AI dan pengaruh AI di kehidupan sosial,
+fairness
+transparency
+privacy
+human centerednes
+Sisi negatif AI,
+potensi bias dan diskriminasi
+pergeseran lapangan pekerjaan
+kurangnya transparansi dan kejelasan
+privasi dan keamanan
+ketergantungan teknologi
